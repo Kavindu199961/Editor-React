@@ -1,0 +1,36 @@
+.form-preview {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+  }
+  
+  .form-preview h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    max-width: 400px;
+  }
+  
+  .form-preview p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    max-width: 400px;
+  }
+  
+  .preview-input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .preview-input:focus {
+    border-bottom: 2px solid black;
+  }
+  

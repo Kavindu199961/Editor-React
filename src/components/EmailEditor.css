@@ -1,0 +1,64 @@
+
+.form-editor {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    margin-right: 70px;
+    
+  }
+  
+  .form-editor h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-editor label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .form-editor input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .required-toggle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .required-toggle label {
+    margin-right: 10px;
+  }
+  
+  .required-toggle input {
+    margin-left: 5px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .save-btn,
+  .discard-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .save-btn {
+    background-color: black;
+    color: white;
+  }
+  
+  .discard-btn {
+    background-color: red;
+    color: white;
+  }
+  

@@ -1,0 +1,37 @@
+.form-preview {
+    width: 70%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 220px;
+  }
+  
+  .form-preview h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .form-preview p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .form-preview button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .preview-image {
+    margin-top: 20px;
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: contain;
+  }
+  
